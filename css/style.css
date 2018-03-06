@@ -136,6 +136,17 @@ div.contact {
   color: ghostwhite;
   background: linear-gradient(to right, #77c9d4, #57bc90);
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  margin: 10px;
+}
+
+div.icons {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
