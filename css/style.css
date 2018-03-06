@@ -34,7 +34,7 @@ h2 {
 }
 
 nav {
-  width: 100vw;
+  width: 100%;
   height: 10vh;
   line-height: 80px;
   background-color: ghostwhite;
@@ -130,6 +130,9 @@ div.skills {
   font-weight: bold;
 }
 
+.skills > * {
+}
+
 div.contact {
   height: 100vh;
   width: 100%;
@@ -143,6 +146,11 @@ div.contact {
 
 i {
   margin: 10px;
+  transition: all 0.3s;
+}
+
+i:hover {
+  color: #c1c1c1;
 }
 
 div.icons {
