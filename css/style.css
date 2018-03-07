@@ -102,6 +102,24 @@ div.projects > p {
   text-align: center;
 }
 
+button {
+  font-family: inherit;
+  border: none;
+  background-color: #454555;
+  color: ghostwhite;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.projects span {
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 div.skills {
   color: #454555;
   height: 100vh;
@@ -161,4 +179,19 @@ div.icons {
 
 h4 {
   font-size: 28px;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  header > img {
+    max-width: 300px;
+    margin: auto;
+  }
 }
