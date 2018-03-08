@@ -75,15 +75,16 @@ li:hover {
   color: #c1c1c1;
 }
 
-header a img {
+header img {
   width: 400px;
   margin-right: 30vh;
   transition: all 0.3s;
 }
 
-header > a > img:hover {
+/* To be added in with JS Pong */
+/* header > a > img:hover {
   width: 410px;
-}
+} */
 
 div.projects {
   color: #454555;
@@ -211,7 +212,7 @@ div.skillset {
     width: 100%;
   }
 
-  header a img {
+  header img {
     margin-right: 0;
     width: 300px;
     margin-top: 10px;
