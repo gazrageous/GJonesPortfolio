@@ -97,6 +97,10 @@ div.projects {
   align-items: center;
 }
 
+div.projects img {
+  width: 400px;
+}
+
 div.projects > p {
   color: #939393;
   max-width: 50%;
@@ -208,7 +212,8 @@ div.skillset {
     text-align: center;
   }
 
-  ul {
+  ul,
+  nav {
     width: 100%;
   }
 
@@ -216,6 +221,7 @@ div.skillset {
     margin-right: 0;
     width: 300px;
     margin-top: 10px;
+    margin-left: 0;
   }
 
   div.greeting {
@@ -224,6 +230,10 @@ div.skillset {
 
   div.projects > p {
     max-width: 80%;
+  }
+
+  div.projects img {
+    width: 280px;
   }
 
   div.icons {
@@ -238,7 +248,7 @@ div.skillset {
 
 @media only screen and (max-width: 960px) {
   ul {
-    width: 50%;
+    width: 100%;
   }
 
   header {
