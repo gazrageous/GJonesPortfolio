@@ -124,7 +124,6 @@ div.skills {
   color: #454555;
   height: 100vh;
   width: 100%;
-  line-height: 10px;
   background-color: #a5a5af;
   display: flex;
   flex-direction: column;
@@ -146,9 +145,6 @@ div.skills {
 
 .skills span {
   font-weight: bold;
-}
-
-.skills > * {
 }
 
 div.contact {
@@ -181,6 +177,18 @@ h4 {
   font-size: 28px;
 }
 
+.toprow,
+.botrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.skillset {
+  text-align: center;
+  max-width: 80%;
+}
+
 /* Responsive Styles */
 
 @media only screen and (max-width: 500px) {
@@ -193,5 +201,51 @@ h4 {
   header > img {
     max-width: 300px;
     margin: auto;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  ul {
+    width: 100%;
+  }
+
+  header a img {
+    margin-right: 0;
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  div.greeting {
+    max-width: 80%;
+  }
+
+  div.projects > p {
+    max-width: 80%;
+  }
+
+  div.icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.skills {
+    height: 150vh;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  ul {
+    width: 50%;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header a img {
+    margin: 0;
   }
 }
