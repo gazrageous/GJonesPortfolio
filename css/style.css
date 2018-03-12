@@ -88,7 +88,7 @@ header img {
 
 div.projects {
   color: #454555;
-  height: 200vh;
+  height: auto;
   width: 100%;
   background-color: #e0e1dd;
   display: flex;
@@ -266,6 +266,10 @@ div.skillset {
 
   div.projects {
     height: auto;
+  }
+
+  div.projects img {
+    width: 280px;
   }
 
   div.skills {
