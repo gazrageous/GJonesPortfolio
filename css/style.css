@@ -102,6 +102,7 @@ div.projects img {
 }
 
 div.projects > p {
+  font-size: 18px;
   color: #939393;
   max-width: 50%;
   text-align: center;
@@ -140,12 +141,17 @@ div.skills {
   font-size: 28px;
 }
 
-.skills h3 {
+h3 {
   font-size: 24px;
 }
 
+.aboutme {
+  max-width: 50%;
+}
+
 .skills p {
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .skills span {
@@ -239,6 +245,10 @@ div.skillset {
   div.icons {
     display: flex;
     flex-direction: column;
+  }
+
+  .aboutme {
+    max-width: 80%;
   }
 
   div.skills {
