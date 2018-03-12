@@ -256,7 +256,23 @@ div.skillset {
     text-align: center;
   }
 
-  header a img {
+  header img {
     margin: 0;
+  }
+
+  header {
+    height: auto;
+  }
+
+  div.projects {
+    height: auto;
+  }
+
+  div.skills {
+    height: auto;
+  }
+
+  nav {
+    height: 90px;
   }
 }
